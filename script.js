@@ -10,9 +10,8 @@ function btnEncrypt(){
 
 function btnDecrypt(){
     const decriptedText = decrypt(textArea.value);
-    textArea.value = decriptedText;
+    textAreaMesagge.value = decriptedText;
     textArea.value = "";
-    textAreaMesagge.style.backgroundImage = "none";
 }
 
 function encrypt(stringEncrypt){
